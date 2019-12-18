@@ -1494,6 +1494,146 @@ header .menu li:hover{
 	color: #fff;
 } 
 
+/*------twitte---------*/
+.container16{
+	background-image: url('../image/twitter.png');
+}
+
+.container16 .content{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.container16 svg{
+	margin-top: 95px;
+	margin-bottom: 30px;
+	color: #fff;
+	font-size: 25px;
+}
+
+.container16 .content:hover svg{
+	color:#ff0036;
+}
+
+.container16 p{
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+.container16 .srcoll_bar {
+	width: 44%;
+	background-color: #ff0036;
+	height: 1px;
+	color: #ff0036;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.container16 .srcoll_bar .fa-circle {
+	position: relative;
+	bottom: 10px;
+	margin: 0;
+	font-size: 18px;
+	color: #ff0036;
+}
+
+/*------(17)our Blog----*/
+.container17 h2{
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Raleway', sans-serif;
+	color: #262626;
+	font-weight: bold;
+	margin-top: 100px;
+}
+
+.container17 span{
+	color:#ff0036;	
+}
+
+.container17 p{
+	text-align: center;
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+	color: #505050;
+	font-weight: bold;
+	padding-top: 50px ;
+	margin-bottom: 100px;
+}
+
+.container17 .blog .descr .card1 h4,
+.container17 .blog .descr .card2 h4{
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	color: #2e2e2e;
+	font-weight: 500;
+	margin: 0;
+}
+
+.container17 .blog .descr .card1 p,
+.container17 .blog .descr .card2 p{
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	color: #505050;
+	font-weight: 300;
+	text-align: left;
+	margin-bottom: 30px;
+	padding: 8px 0;
+}
+
+.container17 .blog .descr .card1 a,
+.container17 .blog .descr .card2 a{
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	color: #fff;
+	text-align: left;
+	background: #262626;
+	padding: 15px;
+	margin-bottom: 50px;
+	text-decoration: none;
+}
+
+.container17 .blog .descr .card1 a:hover,
+.container17 .blog .descr .card2 a:hover{
+	background: #ff0036;
+}
+.container17 .blog .descr .card2{
+	margin-top: 58px;
+}
+
+.container17 .blog .image img{
+	margin-bottom: 50px;
+}
+
+.container17 .blog .image img:hover{
+	opacity: 0.5;
+}
+
+.container17 .blog .descr .card1 .icon,
+.container17 .blog .descr .card2 .icon{
+	display: flex;
+	color: #a2a2a2;
+	align-items: center;
+	font-size: 12px;
+}
+
+.container17 .blog .descr .card1 .icon .space,
+.container17 .blog .descr .card2 .icon .space {
+	width: 3%;
+}
+
+.container17 .blog .descr .card1 .icon svg,
+.container17 .blog .descr .card2 .icon svg {
+	margin: 1%;
+}
+
+
+
 /*------media---------*/
 
 @media(max-width: 1020px){
