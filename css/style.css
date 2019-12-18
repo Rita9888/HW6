@@ -221,7 +221,7 @@ header .menu li:hover{
 	text-align: center;
 	font-size: 16px;
 	color: #fff;
-	font-family: 'Loto';
+	font-family: 'Lato';
 	position: relative;
 	top: 20px;
 	line-height: 24px;
@@ -405,7 +405,7 @@ header .menu li:hover{
 	display: none;
 }
 
-.container3 .dropdown .part .change_icon .fa-minus-square {
+.container4 .dropdown .part .change_icon .fa-minus-square {
 	display: none;
 	position: relative;
 	margin: 4px auto 0;
@@ -595,7 +595,7 @@ header .menu li:hover{
 	background: rgba(0, 0, 0, 0.9);
 }
 
-.container7 .item1 img:hover .hover_item{
+.container7 .item1:hover .container7 .hover_item{
 	display: block;
 }
 
@@ -1165,19 +1165,336 @@ header .menu li:hover{
 	margin-top: 5%;
 }
 
+.container11{
+	width: 100%;
+}
 
-/* 
+.container11 h2{
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Raleway', sans-serif;
+	color: #262626;
+	font-weight: bold;
+	margin-top: 105px;
+}
 
-.container12 .item_img{
+.container11 span{
+	color:#ff0036;	
+}
+
+.container11 p{
+	text-align: center;
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+	color: #505050;
+	font-weight: bold;
+	margin-top: 52px ;
+	margin-bottom: 60px;
+}
+
+.container11 .descr span{
+	font-family: 'Raleway','sans-serif';
+	font-weight: 500;
+	font-size: 20px;
+	color: #262626;
+	padding-top: 2%;
+}
+
+.container11 .descr p{
+	font-family: 'Lato';
+	font-weight: 500;
+	font-size: 14px;
+	color: #505050;
+	margin-top: 5% ;
+	margin-bottom: 0;
+}
+
+.container11 .item_img{
 	text-align: center;
 	margin: 10px 0;
 }
 
-.container12 .item_img img{
+.container11 .descr{
+	border: 1px solid #a4a4a496;
+	padding: 5%;
+}
+
+.container11 .item_img img{
 	max-width: 100%;
 }
 
-*/
+.container11 .hover_cart{
+	display: block;
+	background: #292929be;
+}
+
+.contaner11 .item_img img:hover .hover_cart{
+	display: block;
+}
+
+.container11 .srcoll_bar {
+	width: 44%;
+	background-color: #262626;
+	height: 1px;
+	color: #262626;
+	text-align: center;
+	margin: 10% auto;
+}
+
+.container11 .srcoll_bar svg {
+	font-size: 18px;
+	position: relative;
+	top: -10px;
+}
+/*-------(13)our Skills-------*/
+
+.container13 h2{
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Raleway', sans-serif;
+	color: #262626;
+	font-weight: bold;
+	margin-top: 100px;
+}
+
+.container13  span{
+	color:#ff0036;	
+}
+
+.container13 p{
+	text-align: center;
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+	color: #505050;
+	font-weight: bold;
+	padding-top: 50px ;
+	margin-bottom: 100px;
+}
+
+.container13 .diagram .item .content{
+	background: #fff;
+	width: 145px; 
+	height: 145px;
+    text-align: center;
+    font: 40px/145px 'Lato', serif;
+    border: 3px solid #ff0036;
+    border-right: 3px solid #f2f2f2;
+	border-radius: 50%;
+}
+
+.container13 .diagram .item h4{
+	font-family:  'Raleway', sans-serif;
+	font-size: 20px;
+	color: #262626;
+	text-align: center;	
+	margin: 30px 0;
+}
+
+.container13 .diagram .item p{
+	font-family: 'Lato',"serif";
+	font-size: 16px;
+	text-align: center;
+	color: #505050;
+	font-weight: 500;
+	padding-top: 0px;
+}
+
+/*---------(14)our servise---------------*/
+.container14{
+	background: #272727;
+}
+
+.container14 h2{
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Raleway', sans-serif;
+	color: #fff;
+	font-weight: bold;
+	padding-top: 100px;
+}
+
+.container14 span{
+	color:#ff0036;	
+}
+
+.container14 p{
+	text-align: center;
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+	color: #fff;
+	font-weight: bold;
+	padding-top: 50px ;
+	margin-bottom: 100px;
+}
+
+.container14 .service .item .card{
+	border: none;
+	margin-bottom: 100px;
+}
+
+.container14 .service .item .card .icon{
+	display: flex;
+	align-items: center;
+	background: #272727;
+}
+
+.container14 .service .item .card .text{
+	background:#343434;
+	color: #a4a4a4;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	padding: 30px;
+}
+
+.container14 .service .item .card .icon h4{
+	color: #e1e1e1;
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	margin-left: 40px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.container14 .service .item .card .icon .hexagon {
+	position: relative;	
+	width: 65px;
+	height: 60px;
+	background: #a4a4a4;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}	
+
+.container14 .service .item .card .icon .hexagon:before {
+	content: '';
+	position: absolute;
+	background-size: cover;
+}
+
+.container14 .service .item .card .icon .hexagon,
+.container14 .service .item .card .icon .hexagon:before {
+  clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
+  transition: .3s;
+}
+ 
+.container14 .service .item .card .icon .hexagon svg{
+	font-size: 25px;
+	color: #272727;
+	z-index: 1;
+}
+
+.container14 .service .item .card .icon:hover .hexagon{
+	background: #ff0036;
+	z-index: 1;
+}
+
+.container14 .service .item .card .icon:hover svg{
+	color: #fff;
+}
+
+.container14 .service .item .card .icon:hover h4{
+	color: #fff;
+}
+
+.container14 .service .item .card .text:hover{
+	background-color: #3d2329;
+}
+/*---------(15)Plans Bestseller----------*/
+.container15 h2{
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Raleway', sans-serif;
+	color: #262626;
+	font-weight: bold;
+	margin-top: 100px;
+}
+
+.container15 span{
+	color:#ff0036;	
+}
+
+.container15 p{
+	text-align: center;
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+	color: #505050;
+	font-weight: bold;
+	padding-top: 50px ;
+	margin-bottom: 100px;
+}
+
+.container15 .price .item{
+	min-width: 270px;
+}
+
+.container15 .price .item .card .first_cell{
+	background: #262626;
+	color: #fff;
+	font-family: 'Raleway','sans-serif';
+	font-size: 20px;
+	font-weight: 500;
+	text-align: center;
+	padding: 18px 0;
+}
+
+.container15 .price .item .card .second_cell{
+	background: #f2f2f2;
+	text-align: center;
+	padding: 20px 0;
+	font-size:16px;
+	color:#262626;
+	font-family:  'Lato', sans-serif;
+}
+
+.container15 .price .item .card .second_cell span{
+	color: #262626;
+	font-family:  'Lato', sans-serif;
+	font-size: 50px;
+	font-weight: 900;
+}
+
+.container15 .price .item .card .other_cell{
+	border-left: 1px solid #f2f2f2;
+	border-bottom: 1px solid #f2f2f2;
+	border-right: 1px solid #f2f2f2;
+	text-align-last: center;
+	font-family:  'Lato', sans-serif;
+	font-size: 16px;
+	color: #262626;
+	padding: 20px 0;
+}
+
+.container15 .price .item .card .btn_cell{
+	text-decoration: none;
+	margin: 30px 0;
+	text-align: center;
+	
+}
+
+.container15 .price .item .card .btn_cell a{
+	background: #262626;
+	padding: 13px 52px;
+	color: #fff;
+	font-family: 'Raleway','sans-serif';
+	font-size: 18px;
+}
+
+.container15 .price .item .card .btn_cell a:hover{
+	background: #ff0036;
+	text-decoration: none;
+} 
+
+.container15 .price .item .card:hover .second_cell{
+	background: #ff0036;
+	color: #fff;
+} 
+
+.container15 .price .item .card:hover .second_cell span{
+	color: #fff;
+} 
+
+/*------media---------*/
 
 @media(max-width: 1020px){
 	header .block_menu{
